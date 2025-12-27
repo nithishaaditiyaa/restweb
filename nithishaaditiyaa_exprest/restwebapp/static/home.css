@@ -1,0 +1,102 @@
+* {
+  box-sizing: inherit;
+}
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+     
+    }
+
+  
+    header, footer {
+      background-color: #f4f4f4;
+      padding: 20px;
+      text-align: center;
+    }
+
+
+
+.header
+ {
+  display: flex;
+  justify-content: space-around; 
+  background-color: #333;
+  padding: 20px;
+  position:relative;
+  width: 100%;
+  z-index: 1000;
+
+}
+
+nav a {
+  color: lime;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 12px 24px;
+  background-color: #4CAF50; 
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+nav a:hover {
+  background-color: black; 
+}
+
+
+.main {
+      flex: 1;
+      padding: 20px;
+    }
+
+.container {
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+    }
+
+.column {
+      width: 30%;
+      background-color: #fafafa;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+.column img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+  
+footer {
+      font-weight: bold;
+      color: red;
+      position: fixed;
+      left: 0;
+  bottom: 0;
+  width: 100%;
+    background-color: #f4f4f4;
+    text-align: center;
+     
+    }
+
+footer span {
+      color: blue;
+    }
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+.site-title {
+  font-family: 'Rock Salt', cursive;
+  font-size: 60px;
+  color: #f02c2c; 
+  text-align: center;
+  margin-top: 20px;
+}
